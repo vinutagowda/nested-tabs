@@ -23,11 +23,15 @@
               "src/favicon.ico",
               "src/assets"
             ],
-            "styles": [
-              "src/styles.css"
-            ],
-            "scripts": []
-          },
+            
+          "scripts": [
+            "./node_modules/jquery/dist/jquery.js",
+            "./node_modules/bootstrap/dist/js/bootstrap.bundle.js"
+        ],
+         "styles": [
+            "./node_modules/bootstrap/dist/css/bootstrap.css","src/styles.css"
+        ]
+      },
           "configurations": {
             "production": {
               "fileReplacements": [
@@ -86,10 +90,13 @@
               "src/favicon.ico",
               "src/assets"
             ],
-            "styles": [
-              "src/styles.css"
-            ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/jquery/dist/jquery.js",
+              "./node_modules/bootstrap/dist/js/bootstrap.bundle.js"
+          ],
+           "styles": [
+              "./node_modules/bootstrap/dist/css/bootstrap.css","src/styles.css"
+          ]
           }
         },
         "lint": {
